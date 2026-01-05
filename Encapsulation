@@ -22,6 +22,8 @@ public class Student {
     private int key;
 }
 
+//Next class start 
+
 public class Teacher {
     static void main(String[] args) {
         Student s= new Student();
