@@ -1,0 +1,29 @@
+//Abstract Program
+abstract class Vehicle {
+abstract void drive();
+
+}
+
+//Next class start 
+
+public class Car extends Vehicle {
+    @Override
+    void drive() {
+        System.out.println("Driving");
+    }
+}
+
+//Next class start
+
+public class Running {
+    public static void main(String[] args) {
+        Vehicle v = new Vehicle() {
+            @Override
+            void drive() {
+                System.out.println("I love Driving cars.");
+                System.out.println("My fav. Car is BMW.");
+            }
+        };
+        v.drive();
+    }
+}
