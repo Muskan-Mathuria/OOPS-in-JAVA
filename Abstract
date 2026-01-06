@@ -10,19 +10,22 @@ public class Car extends Vehicle {
     @Override
     void drive() {
         System.out.println("Driving");
+        System.out.println("I love Driving cars.");
+        System.out.println("My fav. Car is BMW.");
     }
 }
+
 
 //Next class start
 
 public class Running {
     public static void main(String[] args) {
-        Vehicle v = new Vehicle() {
+        Vehicle v = new Car() {
             @Override
             void drive() {
-                System.out.println("I love Driving cars.");
-                System.out.println("My fav. Car is BMW.");
+                super.drive();
             }
+        
         };
         v.drive();
     }
