@@ -1,80 +1,0 @@
-                              “OOPS IN JAVA”
-* OOPs kya hota hai?
-OOPs (Object Orineted Programming System) ek programming approach hai jisme program objects ke around design hota hai, na ki sirf functions ke.
-?? Java purely object-orineted nahi hai (kyuki primitive data types hain), but mostly OOP follow karta hai.
-
-* Class 
-     Class  ek blueprint/template hoti hai jisse objects bante hain.
-                                              
-* Object
-Object class ka real-world instance hota hai.
-
-* 4 Pillars of OOPs
-> Encapsulation 
-??  Data+Methods ko ek unit me badhana= Encapsulation
-??  Data ko Direct access se bachata hai (data hiding).            
-                         
-* Private data secure
-* Getter/Setter se access
-                       ?? Ek class dusari class ki properties inherit karti hai
-                               ?? extends keyword use hota hai
-                                           
-* Code reusability
-* IS-A relationship
-
-
-> Polymorphism
-                        ??   Ek kaam, multiple forms
-(a) Method Overloading (Compile Time)  
-Same method name, different parameters                           
-
-
-(b) Method Overriding (Run Time)
-Parent method ko child class me change karna
-    
-
-
-> Abstraction
-                        ??   Implementation details hide karna 
-                                       ??   Sirf what to do batana, how to do nahi
-                                       
-                                     Abstract Class :
-                                           
-                                    Interface :
-                                           
-* Interface = 100% abstraction
-* Multiple inheritance possible
-
-
-* Interface vs Abstract Class
-
-
-InterfaceAbstract Class100% abstractionPartial abstractionimplementsextendsMultiple inheritanceSingle inheritanceNo constructorConstructor allowed
-
-
-* this keyword
-?? Current object ko refer karta hai
-
-
-
-
-* super keyword
-?? Parent class ke variable/ method ko access karta hai
-
-
-
-
-
-* Constructor
-??Object banate time automatically call hota hai
-??Same name as class
-
-
-
-
-* Benefits of OOPs
-
-* Code reusable
-* Easy maintenance 
-* Secure
-* Real-world modeling
