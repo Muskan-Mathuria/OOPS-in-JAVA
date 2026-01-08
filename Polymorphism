@@ -1,0 +1,27 @@
+public class Parent {
+    void show(){
+        System.out.println("My Father's Name is XYZ.");
+        System.out.println("My Mother's Name is XYZ.");
+    }
+}
+
+# Next file code Start 
+
+public class Child {
+    void show(){
+        System.out.println("My Name is ABC.");
+        System.out.println("My Sister name is MPV.");
+        System.out.println("My Brother name is EFG.");
+    }
+}
+
+# Next file code Start
+
+public class Family {
+    static void main(String[] args) {
+        Parent p = new Parent();
+        p.show();
+        Child c = new Child();
+        c.show();
+    }
+}
